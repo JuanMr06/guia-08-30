@@ -33,8 +33,7 @@
         </ol>
     </nav>
     <section id="table">
-        <table>
-
+        <table border="1">
             <thead>
                 <tr>
                     <th>Nombre</th>
@@ -43,7 +42,6 @@
                     <th>Telefono</th>
                 </tr>
             </thead>
-
             <tbody>
                 <tr>
                     <td> Juan </td>
@@ -51,11 +49,11 @@
                     <td>juuanm.jr@gmail.com</td>
                     <td>3146571671</td>
                 </tr>
-<tfoot>
-    <tr>
-        <td colspan="3"> Datos Simulados </td>
-    </tr>
-</tfoot>
+            <tfoot>
+                <tr>
+                    <td colspan="3"> Datos Simulados </td>
+                </tr>
+            </tfoot>
             </tbody>
 
 
@@ -70,16 +68,41 @@
     <section id="Contactanos">
         <form>
             <label for="Nombre">Nombre:</label><br>
-            <input type="text" name="Nombre" id="Nombre"><br>
+            <input type="text" name="Nombre" id="Nombre" required><br>
             <label for="Apellido">Apellido</label><br>
             <input type="text" name="Apellido" id="Apellido" required><br>
             <label for="Correo">Correo</label><br>
             <input type="email" name="email" id="email" required><br>
             <label for="Telefono">Telefono</label><br>
             <input type="tel" name="tel" id="tel" pattern="[0-9] {10}" maxlength="10"><br><br>
-            <input type="submit">
-            <img src="logo.png" alt="logo" style="float: right;">
+            <button type="submit">Registrar</button><br>
+            <img src="logo.png" alt="logo" style="right: auto;">
         </form>
+    </section>
+
+    <section id="registro">
+        <h3 style="align-content: center;" ;>Formulario de registro</h3>
+        <form >
+            <fieldset>
+                <legend>Datos Personales</legend>
+                <label for="Nombre">Nombre</label><br>
+                <input type="text" name="Nombre" id="Nombre" required><br>
+                <label for="Apellido">Apellido</label><br>
+                <input type="text" name="Nombre" id="Nombre" required><br>
+                <label for="Direccion">Direccion</label><br>
+                <input type="text" name="Direccion" id="Direccion" required><br>
+                <label for="Telefono">Telefono</label><br>
+                <input type="tel" name="tel" id="tel" pattern="[0-9] {10}" maxlength="10"><br>
+                <label for="Gustos">Gustos</label><br>
+                <input type="text" name="Gustos" id="Gustos" required><br>
+                <label for="Genero">Genero</label><br>
+                <input type="text" name="Genero" id="Genero" required><br><br>
+                <button type="submit">Registrar</button>
+            </fieldset>
+        </form>
+        <br>
+        <a href="#Contactanos">Volver a Contactanos</a><br><br>
+        <a href="https://motos.honda.com.co/contacto">Dirigirse a Contactanos</a>
     </section>
 
 </footer>
