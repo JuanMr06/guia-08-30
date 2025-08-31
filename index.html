@@ -23,7 +23,7 @@
             <li>
                 <a href="https://motos.honda.com.co/motos-honda/motos-sport/CB-650-R" style="display: inline-block; background-color: blue; padding: 10px 20px; color: 
                     white; border-radius: 5px ;">PAGINA
-                    OFICIAL</a>
+                    OFICIAL</a><br><br>
             </li>
             <li>
                 <a href="https://motos.honda.com.co/motos-honda/motos-sport/CB-650-R/cotizar" style="display: inline-block; background-color: blue; padding: 10px 20px; color: 
@@ -32,14 +32,45 @@
 
         </ol>
     </nav>
+    <section id="table">
+        <table>
+
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Correo</th>
+                    <th>Telefono</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td> Juan </td>
+                    <td>Rodriguez</td>
+                    <td>juuanm.jr@gmail.com</td>
+                    <td>3146571671</td>
+                </tr>
+<tfoot>
+    <tr>
+        <td colspan="3"> Datos Simulados </td>
+    </tr>
+</tfoot>
+            </tbody>
+
+
+        </table>
+    </section>
+
+
 </body>
 <footer>
     <h2> Contactanos </h2>
 
-    <section>
+    <section id="Contactanos">
         <form>
             <label for="Nombre">Nombre:</label><br>
-            <input type="text" name="Nombre" id="Nombre" ><br>
+            <input type="text" name="Nombre" id="Nombre"><br>
             <label for="Apellido">Apellido</label><br>
             <input type="text" name="Apellido" id="Apellido" required><br>
             <label for="Correo">Correo</label><br>
@@ -47,9 +78,10 @@
             <label for="Telefono">Telefono</label><br>
             <input type="tel" name="tel" id="tel" pattern="[0-9] {10}" maxlength="10"><br><br>
             <input type="submit">
+            <img src="logo.png" alt="logo" style="float: right;">
         </form>
     </section>
-<img src="" alt="">
+
 </footer>
 
 </html>
