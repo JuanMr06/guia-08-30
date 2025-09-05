@@ -8,7 +8,7 @@
     <meta name="keywords" content="web, html, Portafolio">
     <meta name="autor" content="Juan Rodriguez">
     <title> CB-650R </title>
-    <h1 style="text-align:center;">CB-650R </h1>
+
     <style>
         h1 {
             color: white;
@@ -20,6 +20,7 @@
 </head>
 
 <body>
+    <h1 style="text-align:center;">CB-650R </h1>
     <img src="cb650.jpeg" alt="CB-650R">
     <nav>
         <ol>
@@ -63,30 +64,29 @@
                     <td>juuanm.jr@gmail.com</td>
                     <td>3146571671</td>
                 </tr>
-                <section id="multimedia">
-                    <p>Reproducir Audio</p>
-                    <audio controls>
-                        <source src="horse.ogv" type="audio/ogg">Reproducir<br><br>
-                    </audio>
-                    <p>Reproducir Video</p>
-                    <video width="320" height="240" controls>
-                        <source src="movie.mp4" type="video/mp4">
-                    </video><br><br>
+            </tbody>
+            <section id="multimedia">
+                <p>Reproducir Audio</p>
+                <audio controls>
+                    <source src="horse.ogv" type="audio/ogg">Reproducir<br><br>
+                </audio>
+                <p>Reproducir Video</p>
+                <video width="320" height="240" controls>
+                    <source src="movie.mp4" type="video/mp4">
+                </video><br><br>
 
-                </section>
+            </section>
             <tfoot>
                 <tr>
                     <td colspan="3"> Datos Simulados </td>
                 </tr>
             </tfoot>
-            </tbody>
+
 
 
         </table>
     </section>
 
-
-</body>
 <footer>
     <h2> Contactanos </h2>
 
@@ -99,7 +99,7 @@
             <label for="Correo">Correo</label><br>
             <input type="email" name="email" id="email" required><br>
             <label for="Telefono">Telefono</label><br>
-            <input type="tel" name="tel" id="tel" pattern="[0-9] {10}" maxlength="10"><br><br>
+            <input type="tel" name="tel" id="tel" pattern="[0-9]{10}" maxlength="10"><br><br>
             <button type="submit">Registrar</button><br>
             <img src="logo.png" alt="logo" style="right: auto;">
         </form>
@@ -111,17 +111,17 @@
             <fieldset>
                 <legend>Datos Personales</legend>
                 <label for="Nombre">Nombre</label><br>
-                <input type="text" name="Nombre" id="Nombre" required><br>
+                <input type="text" id="Nombre" required><br>
                 <label for="Apellido">Apellido</label><br>
-                <input type="text" name="Nombre" id="Nombre" required><br>
+                <input type="text" id="Nombre" required><br>
                 <label for="Direccion">Direccion</label><br>
-                <input type="text" name="Direccion" id="Direccion" required><br>
+                <input type="text" id="Direccion" required><br>
                 <label for="Telefono">Telefono</label><br>
-                <input type="tel" name="tel" id="tel" pattern="[0-9] {10}" maxlength="10"><br>
+                <input type="tel" id="tel" pattern="[0-9]{10}" maxlength="10"><br>
                 <label for="Gustos">Gustos</label><br>
-                <input type="text" name="Gustos" id="Gustos" required><br>
+                <input type="text" id="Gustos" required><br>
                 <label for="Genero">Genero</label><br>
-                <input type="text" name="Genero" id="Genero" required><br><br>
+                <input type="text" id="Genero" required><br><br>
                 <button type="submit">Registrar</button>
             </fieldset>
         </form>
@@ -131,5 +131,7 @@
     </section>
 
 </footer>
+</body>
+
 
 </html>
